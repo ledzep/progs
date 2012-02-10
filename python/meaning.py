@@ -1,9 +1,5 @@
 #!usr/bin/python
 
-DICTIONARY = {}
-
-DICTIONARY_FILENAME = "words.txt"
-
 print "welcome to self-learning dictionary ver 1.1"
 
 def save_dictionary_to_file(filename, name, dic):
@@ -52,6 +48,8 @@ def save_meaning(name, meaning, dic):
     dic[name] = meaning        
 
 def word_meaning():
+    DICTIONARY = {}
+    DICTIONARY_FILENAME = "words.txt"
     read_dictionary(DICTIONARY_FILENAME, DICTIONARY)
     while True:
         name = raw_input("Please enter a word: ")
