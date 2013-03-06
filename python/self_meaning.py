@@ -1,5 +1,5 @@
 #!usr/bin/python
-
+#revising after long time
 dictionary = {'CAR':'A car is a vehicle with 4 wheels', 
                'APPLE':'round fruit with red, green, or yellow color', 
                'TRIANGLE':'A triangle has three sides'
